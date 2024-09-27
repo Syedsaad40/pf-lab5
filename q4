@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+	int num,check;
+	printf("Enter the purchase amount:");
+	scanf("%d",&num);
+	printf("Do you have a membership?(Enter 1 for yes and 2 for no)");
+	scanf("%d",&check);
+	
+	num>100 && check ==1?printf("You are eligble for discount"):printf("You are not eligible for discount");
+	num<0 ? printf("Invalid amount"):printf("");
+
+	
+	return 0;
+}
